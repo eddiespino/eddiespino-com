@@ -1,4 +1,10 @@
-/* General Styles */
+/*
+Writing CSS styles, including selectors with declarations.
+Using common properties related to color, size, font, text alignment, and background.
+Working with a given element's box model by modifying their width/height, border, padding, and margin.
+Laying out elements on the page according to how they're displayed and positioned.
+*/
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
