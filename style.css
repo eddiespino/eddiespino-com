@@ -9,12 +9,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #e6f7ff;
     color: #333;
 }
 
 header {
-    background-color: #1e90ff;
+    background-color: #00aaff;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -24,27 +24,15 @@ header {
 header h1 {
     font-size: 2.5em;
     margin: 0;
-    padding: auto;
-    border: #104e8b;
 }
 
-#eddie-espino {
+#eddie-espino, #acerca-de-eddie {
     width: 50%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-items: center;
-
-#acerca-de-eddie {
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    align-items: center;
-}
-
+    border-radius: 8px;
 }
 
 nav {
@@ -57,10 +45,11 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.2em;
+    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #f0f8ff;
+    color: #e6f7ff;
 }
 
 nav ul {
@@ -75,19 +64,19 @@ nav ul {
 }
 
 section {
-    margin: 5%;
-    padding: 5%;
+    margin: 20px 0;
+    padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 section h2 {
     font-size: 2em;
-    color: #1e90ff;
-    border-bottom: 2px solid #1e90ff;
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    padding-left: 5%;
 }
 
 section p {
@@ -96,10 +85,10 @@ section p {
 }
 
 footer {
-    background-color: #1e90ff;
+    background-color: #00aaff;
     color: white;
     text-align: center;
-    padding: auto;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
