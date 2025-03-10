@@ -28,6 +28,10 @@ header h1 {
     border: #104e8b;
 }
 
+#eddie-espino {
+    width: 20px;
+}
+
 nav {
     margin: 20px 0;
     text-align: center;
@@ -56,8 +60,8 @@ nav ul {
 }
 
 section {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 15%;
+    padding: 15%;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: auto;
