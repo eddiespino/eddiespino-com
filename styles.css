@@ -1,21 +1,21 @@
 
 :root {
-    --primary-color: #1e90ff;      /* Dodger Blue */
-    --secondary-color: #0d47a1;    /* Dark Blue */
-    --accent-color: #00bcd4;       /* Cyan accent */
-    --background-color: #e8f0fe;   /* Light blue background */
+    --primary-color: #1e90ff;     
+    --secondary-color: #0d47a1;    
+    --accent-color: #00bcd4;       
+    --background-color: #e8f0fe;
     --text-color: #333;
   }
   
 
   * {
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     text-align: center;
