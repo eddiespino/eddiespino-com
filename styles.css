@@ -54,6 +54,10 @@ img {
   max-width: 50%;
 }
 
+section ul li {
+  display: inline;
+}
+
 footer {
   background-color: #333;
   color: #fff;
