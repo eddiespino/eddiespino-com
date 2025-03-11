@@ -65,6 +65,13 @@
     width: 90%;
     margin: 5% auto;
   }
+
+  #servicios > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
   
   img {
     max-width: 100%;
@@ -96,14 +103,14 @@
     text-align: center;
   }
 
-  #contacto > a {
+  #contacto > ul > a {
     color: #fff;
     text-decoration: none;
     font-weight: 750;
     transition: color 0.3s ease;
   }
 
-  #contacto > a:hover {
+  #contacto > ul > a:hover {
     color: var(--accent-color);
   }
 
