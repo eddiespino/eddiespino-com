@@ -1,98 +1,110 @@
 /*
+
 Writing CSS styles, including selectors with declarations.
 Using common properties related to color, size, font, text alignment, and background.
 Working with a given element's box model by modifying their width/height, border, padding, and margin.
 Laying out elements on the page according to how they're displayed and positioned.
+
+Use blue cooler for the background color of the body.
+Use Arial as the font-family for the body.
+Set the margin and padding of the body to 0.
+
 */
 
+/* Add your CSS styles here */
+
+/* Body */
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e6f7ff;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
+
+/* Header */
 
 header {
-    background-color: #00aaff;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
 
-header h1 {
-    font-size: 2.5em;
-    margin: 0;
-}
+/* Navigation */
 
-#eddie-espino, #acerca-de-eddie, #services-img, #contacto {
-    width: 50%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-menu {
-    display: flex;
-    justify-content: center;
-    background-color: #00aaff;
-    padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: auto 10px;
-    font-size: 1.2em;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #e6f7ff;
+nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+/* Main Content */
+
+main {
+  padding: 20px;
 }
 
-section h2 {
-    font-size: 2em;
-    color: #00aaff;
-    border-bottom: 2px solid #00aaff;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-section p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
+/* Footer */
 
 footer {
-    background-color: #00aaff;
-    color: white;
-    text-align: center;
-    padding: auto;
-    position: bottom;
-    width: 100%;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
+
+/* Links */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* Image */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* section */
+
+section {
+  margin-bottom: 20px;
+}
+
+/* video */
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
