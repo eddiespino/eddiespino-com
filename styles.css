@@ -1,5 +1,6 @@
 h1 {
     color: #e0f7fa;
+    text-align: center;
 }
 
 h2 {
@@ -10,12 +11,6 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #e0f7fa;
     padding: 0;
-}
-
-header {
-    background-color: #01579b;
-    text-align: center;
-    color: #fff;
 }
 
 nav {
