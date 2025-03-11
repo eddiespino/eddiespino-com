@@ -1,71 +1,90 @@
-/*help me create a CSS code with blue tones and modern design. */
 
-body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+:root {
+    --primary-color: #1e90ff;      /* Dodger Blue */
+    --secondary-color: #0d47a1;    /* Dark Blue */
+    --accent-color: #00bcd4;       /* Cyan accent */
+    --background-color: #e8f0fe;   /* Light blue background */
+    --text-color: #333;
+  }
+  
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  position: sticky;
-  width: 100%;
-  z-index: 1000;
-  top: 0; 
-  border-bottom: 1px solid #444;
-}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-nav {
-  background-color: #444;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--accent-color);
+  }
+  
 
-nav ul {
-  position: sticky;
-  margin: 0;
-  padding: 0;
-}
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: var(--accent-color);
+  }
 
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
+  main {
+    padding: 40px 20px;
+  }
+  
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #f0f0f0;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  padding: 20px;
-}
-
-img {
-  max-width: 50%;
-}
-
-section ul li {
-  display: inline;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
+  section {
+    padding: 40px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid var(--accent-color);
+  }
+  
+  section:last-of-type {
+    border-bottom: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  
