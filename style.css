@@ -43,7 +43,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: auto 10px;
     font-size: 1.2em;
     transition: color 0.3s;
 }
@@ -88,10 +88,8 @@ footer {
     background-color: #00aaff;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    padding: auto;
+    position: bottom;
     width: 100%;
-    bottom: 0;
-    left: 0;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
