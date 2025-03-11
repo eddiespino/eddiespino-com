@@ -13,7 +13,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
   }
 
   header {
@@ -77,12 +76,6 @@
     gap: 20px;
   }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
   section ul {
     list-style: none;
     display: flex;
@@ -102,6 +95,13 @@
     display: flex;
     text-align: center;
     gap: 20px;
+  }
+
+  #contacto {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9rem;
   }
 
   footer {
