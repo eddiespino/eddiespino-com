@@ -95,6 +95,7 @@
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
+    align-items: center;
   }
 
   .github {
