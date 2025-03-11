@@ -71,10 +71,83 @@
     color: var(--accent-color);
   }
 
+  .menu {
+    position: relative;
+    width: 200px;
+  }
+
+
+  .menu input[type="checkbox"] {
+    display: none;
+  }
+
+  .menu-label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+  }
+  .menu-label span,
+  .menu-label span::before,
+  .menu-label span::after {
+    display: block;
+    background-color: #333;
+    height: 4px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .menu-label span {
+    position: relative;
+  }
+  .menu-label span::before,
+  .menu-label span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .menu-label span::before {
+    top: -8px;
+  }
+  .menu-label span::after {
+    top: 8px;
+  }
+
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: none; /* Oculto por defecto */
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+  }
+  .menu-items li {
+    border-bottom: 1px solid #ccc;
+  }
+  .menu-items li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+  }
+  .menu-items li a:hover {
+    background: #ddd;
+  }
+  .menu input[type="checkbox"]:checked ~ .menu-items {
+    display: block;
+  }
+
   main {
     padding: 40px 20px;
   }
   
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
   section {
     padding: 40px 0;
