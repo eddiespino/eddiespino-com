@@ -16,10 +16,19 @@
     text-align: center;
   }
 
+  header {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--accent-color);
+  }
+
   h1 {
     color: var(--background-color);
     margin-bottom: 20px;
-    text-align: center;
   }
 
   body {
@@ -32,16 +41,6 @@
     color: var(--text-color);
     margin-bottom: 20px;
     text-decoration: solid underline var(--accent-color);
-  }
-  
-  header {
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    color: #fff;
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 2px solid var(--accent-color);
   }
 
   nav {
