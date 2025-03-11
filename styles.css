@@ -32,13 +32,8 @@ footer {
     padding: 10px 0;
 }
 
-a {
+h1 {
     color: #01579b;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0288d1;
 }
 
 img {
