@@ -18,18 +18,19 @@
   h1 {
     color: var(--background-color);
     margin-bottom: 20px;
+    text-align: center;
   }
 
   body {
     background-color: var(--background-color);
     color: var(--text-color);
-    text-align: left;
     line-height: 1.6;
   }
 
   h2 {
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 20px;
+    text-decoration: solid underline var(--accent-color);
   }
   
   header {
@@ -78,10 +79,7 @@
     padding: 40px 0;
     margin: 20px 0;
     border-bottom: 1px solid var(--accent-color);
-  }
-  
-  section:last-of-type {
-    border-bottom: none;
+    text-align: left;
   }
 
   section ul {
@@ -115,8 +113,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1 / 1; /* Ensures the items are perfect squares */
-  }  
+    transition: all 0.3s ease; /* Smooth transition */
+    aspect-ratio: 1 / 1; /* Keeps items as squares */
+  }
+  
 
   section .github {
     display: flex;
