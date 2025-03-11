@@ -15,10 +15,15 @@
     padding: 0;
   }
 
+  h1 {
+    color: var(--background-color);
+    margin-bottom: 20px;
+  }
+
   body {
     background-color: var(--background-color);
     color: var(--text-color);
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
   }
 
