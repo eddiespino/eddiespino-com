@@ -13,6 +13,11 @@ header {
   color: #fff;
   padding: 10px;
   text-align: center;
+  position: sticky;
+  width: 100%;
+  z-index: 1000;
+  top: 0; 
+  border-bottom: 1px solid #444;
 }
 
 nav {
