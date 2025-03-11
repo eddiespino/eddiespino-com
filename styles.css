@@ -96,31 +96,9 @@
     margin-top: 20px;
   }
   
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .grid-item {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+  .github {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease; /* Smooth transition */
-    aspect-ratio: 1 / 1; /* Keeps items as squares */
-  }
-  
-
-  section .github {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     gap: 20px;
   }
 
