@@ -103,14 +103,22 @@
     text-align: center;
   }
 
-  #contacto > ul > a {
+  #contacto > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #contacto > ul > li > a {
     color: #fff;
     text-decoration: none;
     font-weight: 750;
     transition: color 0.3s ease;
+    padding: 20px;
   }
 
-  #contacto > ul > a:hover {
+  #contacto > ul > li > a:hover {
     color: var(--accent-color);
   }
 
