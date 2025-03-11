@@ -72,6 +72,10 @@
     justify-content: center;
     padding: 20px;
   }
+
+  .servicios > ul > li {
+    padding: 20px;
+  }
   
   img {
     max-width: 100%;
