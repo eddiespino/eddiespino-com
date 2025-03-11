@@ -46,6 +46,11 @@
   section {
     min-height: 100vh;
   }
+
+  img {
+    width: 25%;
+    height: auto;
+  }
   
   footer > p {
     width: 80%;
@@ -58,7 +63,29 @@
     top: 103px;
   }
   
-  #contacto {
-    background-color: #1e3a8a;
-    color: #fff;
-  }
+    section > p {
+        padding: 10px;
+    }
+
+    section > ul {
+        padding: 10px;
+    }
+
+    section > ol {
+        padding: 10px;
+    }
+
+    footer {
+        background-color: #1e3a8a;
+        color: #fff;
+        border-top: 2px solid #1e40af;
+        position: sticky;
+        width: 100%;
+        z-index: 1;
+        bottom: 0;
+    }
+
+    footer > p {
+        padding: 10px;
+    }
+
