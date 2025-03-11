@@ -82,7 +82,6 @@
   }
 
   #github {
-    background-color: var(--primary-color);
     color: #fff;
     padding: 20px;
     font-size: 0.9rem;
@@ -110,12 +109,15 @@
     padding: 20px;
   }
 
+  #contacto > ul > li {
+    padding: 20px;
+  }
+
   #contacto > ul > li > a {
     color: #fff;
     text-decoration: none;
     font-weight: 750;
     transition: color 0.3s ease;
-    padding: 20px;
   }
 
   #contacto > ul > li > a:hover {
