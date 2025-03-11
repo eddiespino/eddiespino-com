@@ -21,7 +21,7 @@
     padding: 20px;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     border-bottom: 2px solid var(--accent-color);
   }
 
@@ -42,19 +42,9 @@
     text-decoration: solid underline var(--accent-color);
   }
 
-  nav {
+  nav > ul {
     display: flex;
     justify-content: center;
-    background-color: var(--secondary-color);
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
   }
   
   nav ul li a {
@@ -89,12 +79,6 @@
     margin-top: 20px;
     display: inline;
     text-align: center;
-  }
-
-  .github {
-    display: flex;
-    text-align: center;
-    gap: 20px;
   }
 
   #contacto {
