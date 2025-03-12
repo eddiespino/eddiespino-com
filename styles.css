@@ -20,6 +20,7 @@
     color: #fff;
     padding: 5px;
     border-bottom: 2px solid var(--accent-color);
+    text-decoration: dotted underline var(--accent-color);
   }
 
   h1 {
@@ -84,9 +85,20 @@
     display: inline;
   }
 
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+  img #acarca-de-mi{
+    position: sticky;
+    z-index: 1;
+  }
+
   #github {
     color: var(--text-color);
-    background-color: var(--accent-color);
+    text-decoration: solid underline var(--accent-color);
+    background-color: var(--background-color);
     padding: 20px;
     font-size: 0.9rem;
     text-align: center;
@@ -135,7 +147,6 @@
     justify-content: center;
     padding: 20px;
   }
-
 
   footer {
     background-color: var(--secondary-color);
