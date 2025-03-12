@@ -166,12 +166,11 @@
     bottom: 20px;
     right: 20px;
     display: block;
-    padding: 10px 15px;
+    padding: 10px;
     background-color: #555;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-family: Arial, sans-serif;
     font-size: 14px;
   }
   
