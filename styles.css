@@ -83,7 +83,7 @@
     border-radius: 8px;
     margin-top: 10px;
     display: inline;
-    border-radius: 15px;
+    border-radius: 25px;
   }
 
   #github {
@@ -93,7 +93,6 @@
     padding: 20px;
     font-size: 0.9rem;
     text-align: center;
-    border-radius: 5px;
   }
 
   #contacto {
@@ -102,7 +101,6 @@
     padding: 1%;
     font-size: 0.9rem;
     text-align: center;
-    border-radius: 5px;
   }
 
   #contacto > h2 {
@@ -144,5 +142,18 @@
     color: #fff;
     padding: 20px;
     font-size: 0.9rem;
+  }
+
+  #notification-div {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 5px;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    width: 25%;
+    position: fixed;
+    top: 100px;
+    left: 15px;
+    z-index: 1;
   }
   
