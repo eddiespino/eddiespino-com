@@ -144,7 +144,7 @@
     font-size: 0.9rem;
   }
 
-  #notification-div {
+  #notificacion {
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 5px;
