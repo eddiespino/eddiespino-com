@@ -90,7 +90,7 @@
     transition: transform 0.3s ease;
   }
 
-  img #acarca-de-mi{
+  #acarca-de-mi{
     position: sticky;
     z-index: 1;
   }
