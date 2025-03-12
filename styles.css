@@ -173,7 +173,7 @@
     padding: 10px;
     background-color: #555;
     color: #fff;
-    text-decoration: none;
+    text-decoration: dotted underline var(--accent-color);
     border-radius: 5px;
     font-size: 14px;
   }
