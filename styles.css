@@ -150,4 +150,32 @@
     border-radius: 5px;
     margin-top: 20px;
   }
+
+  details > summary {
+    font-weight: 750;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  details > p {
+    margin-top: 10px;
+  }
+
+  #topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    padding: 10px 15px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  #topBtn:hover {
+    background-color: var(--background-color);
+  }
   
