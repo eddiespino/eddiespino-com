@@ -144,16 +144,12 @@
     font-size: 0.9rem;
   }
 
-  #bienvenido {
+  details {
     background-color: var(--background-color);
     color: var(--text-color);
-    padding: 5px;
+    padding: 20px;
     border: 2px solid var(--accent-color);
     border-radius: 5px;
-    width: 25%;
-    position: sticky;
-    top: 100px;
-    left: 15px;
-    z-index: 1;
+    margin-top: 20px;
   }
   
