@@ -83,15 +83,7 @@
     border-radius: 8px;
     margin-top: 10px;
     display: inline;
-  }
-
-  #acerca-de-mi{
-    position: sticky;
-    z-index: 1;
-    img:hover {
-      transform: scale(1.1);
-      transition: transform 0.3s ease;
-    }
+    border-radius: 15px;
   }
 
   #github {
@@ -101,8 +93,7 @@
     padding: 20px;
     font-size: 0.9rem;
     text-align: center;
-    border-radius: 5%;
-    margin: 5%;
+    border-radius: 5px;
   }
 
   #contacto {
@@ -111,6 +102,7 @@
     padding: 1%;
     font-size: 0.9rem;
     text-align: center;
+    border-radius: 5px;
   }
 
   #contacto > h2 {
