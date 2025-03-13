@@ -161,8 +161,6 @@
     margin-top: 20px;
     text-align: center;
     text-decoration: dotted underline var(--accent-color);
-    position: sticky;
-    z-index: 1;
   }
 
   details > summary {
