@@ -64,7 +64,7 @@
   }
   
   .container {
-    width: 100%;
+    width: 90%;
     text-align: left;
   }
 
@@ -105,6 +105,7 @@
     padding: 1%;
     font-size: 0.9rem;
     text-align: center;
+    width: 100%;
   }
 
   #contacto > h2 {
@@ -147,6 +148,7 @@
     padding: 20px;
     font-size: 0.9rem;
     text-align: center;
+    width: 100%;
   }
 
   details {
@@ -180,6 +182,7 @@
     text-decoration: dotted underline var(--accent-color);
     border-radius: 15px;
     font-size: 14px;
+    text-align: center;
   }
   
   #topBtn:hover {
