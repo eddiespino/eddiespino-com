@@ -159,6 +159,10 @@
     border: 2px solid var(--accent-color);
     border-radius: 5px;
     margin-top: 20px;
+    text-align: center;
+    text-decoration: dotted underline var(--accent-color);
+    position: sticky;
+    z-index: 1;
   }
 
   details > summary {
@@ -180,7 +184,6 @@
     background-color: var(--background-color);
     color: var(--text-color);
     border: 2px solid var(--accent-color);
-    text-decoration: dotted underline var(--accent-color);
     border-radius: 15px;
     font-size: 14px;
     text-align: center;
